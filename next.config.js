@@ -10,9 +10,7 @@ const nextConfig = {
       },
     ],
   },
-  // For GitHub Pages deployment
-  basePath: process.env.NODE_ENV === "production" ? "" : "",
-  trailingSlash: true,
+
 }
 
 module.exports = nextConfig
